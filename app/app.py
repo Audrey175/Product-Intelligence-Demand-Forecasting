@@ -9,7 +9,7 @@ st.title("Mini Dashboard - Sales Forecast")
 # Load train data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("train.csv", parse_dates=['date'])
+    df = pd.read_csv("../data/train.csv", parse_dates=['date'])
     return df
 
 df = load_data()
