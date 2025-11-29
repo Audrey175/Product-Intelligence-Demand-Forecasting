@@ -95,16 +95,22 @@ streamlit run app.py
 ## **Project Structure**
 
 ```
-Product-Intelligence-Demand-Forecasting/
-│
-├── app/
-│   ├── app.py          # Streamlit dashboard
-│
-├── data/
-│   ├── train.csv       # Historical sales data
-│   └── test.csv        # Future dates for prediction (optional)
-│
-└── README.md
+project-product-intel/
+├─ data/
+│  ├─ raw/
+│  └─ processed/
+├─ notebooks/
+│  ├─ 01_data_overview.ipynb
+│  └─ 02_modeling_and_evaluation.ipynb
+├─ models/
+│  └─ rf_model.joblib
+├─ app/
+│  └─ app.py
+├─ reports/
+│  └─ anomalies.csv
+├─ requirements.txt
+├─ README.md
+└─ .gitignore
 ```
 
 ---
