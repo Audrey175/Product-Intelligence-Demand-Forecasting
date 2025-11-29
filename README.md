@@ -9,11 +9,9 @@ It demonstrates a **full data science workflow** including:
 * Exploratory Data Analysis (EDA)
 * Feature engineering with lag features and rolling averages
 * Time series analysis and seasonality visualization
-* Machine learning modeling (RandomForest)
+* Machine learning modeling (Catboost, Lightgbm)
 * Forecasting using **Prophet**
 * Interactive dashboard with **Streamlit**
-
-This project aligns with data science tasks such as those described for **Data Scientist Intern roles**, showcasing skills in Python, machine learning, data visualization, and reporting.
 
 ---
 
@@ -98,7 +96,8 @@ streamlit run app.py
 project-product-intel/
 ├─ data/
 │  ├─ raw/
-│  └─ processed/
+│   └─ train.csv
+|   └─ test.csv
 ├─ notebooks/
 │  ├─ 01_data_overview.ipynb
 │  └─ 02_modeling_and_evaluation.ipynb
